@@ -58,7 +58,7 @@ No arguments. No excuses. No escaping.
 
 ### Installation
 
-```bash
+'''bash
 pip install flask
 
 # Run
