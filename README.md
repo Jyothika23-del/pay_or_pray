@@ -120,7 +120,7 @@ The selected person pays the bill
 
 ### Project Demo
 # Video
-https://github.com/Jyothika23-del/pay_or_pray/blob/main/video.mp4
+https://github.com/Jyothika23-del/pay_or_pray/blob/main/video2.mp4
 # Additional Demos
 [Add any extra demo materials/links]
 
