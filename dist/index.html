@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pay or Pray 💸</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" crossorigin href="/assets/index-COhtsANA.css">
+</head>
+
+<body>
+
+    <!-- ================= PAGE 1 ================= -->
+
+    <section id="page1" class="page active landing"
+             onclick="goToPage(2)">
+
+        <!-- FOOD -->
+        <div class="food food1">🍕</div>
+        <div class="food food2">🍔</div>
+        <div class="food food3">🍟</div>
+        <div class="food food4">🍩</div>
+        <div class="food food5">🌭</div>
+        <div class="food food6">🍿</div>
+        <div class="food food7">🥤</div>
+
+        <!-- EMOJIS -->
+        <div class="emoji emoji1">😭</div>
+        <div class="emoji emoji2">😂</div>
+        <div class="emoji emoji3">💸</div>
+        <div class="emoji emoji4">😭</div>
+        <div class="emoji emoji5">💀</div>
+        <div class="emoji emoji6">👀</div>
+
+        <!-- DECORATIVE TEXT -->
+        <div class="mini-text mini1">WHO PAYS?</div>
+        <div class="mini-text mini2">GOOD LUCK 💀</div>
+
+        <!-- MAIN TITLE -->
+        <div class="landing-title">
+
+            <span>PAY</span>
+
+            <small>OR</small>
+
+            <span>PRAY</span>
+
+        </div>
+
+        <!-- TAP -->
+        <div class="click-text">
+            TAP ANYWHERE 😭 →
+        </div>
+
+        <!-- STICKERS -->
+        <div class="sticker sticker-one">
+            NO<br>
+            THINKING
+        </div>
+
+        <div class="sticker sticker-two">
+            YOUR MONEY<br>
+            IS NOT SAFE 💸
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 2 ================= -->
+
+    <section id="page2" class="page">
+        <div class="page-decor page2-decor">
+    <span class="decor d1">🍕</span>
+    <span class="decor d2">😂</span>
+    <span class="decor d3">🍟</span>
+    <span class="decor d4">👀</span>
+    <span class="decor d5">🎲</span>
+    <span class="decor d6">💸</span>
+
+    <div class="mini-sticker s1">WHO PAYS? 💀</div>
+    <div class="mini-sticker s2">GOOD LUCK 💀</div>
+</div>
+
+        <div class="blob blob-pink"></div>
+        <div class="blob blob-yellow"></div>
+
+        <div class="content">
+
+            <div class="label">
+                WELCOME TO THE WORST IDEA EVER
+            </div>
+
+            <h1>
+                READY TO<br>
+                <span>LOSE?</span> 😭
+            </h1>
+
+            <div class="speech">
+
+                <span>💬</span>
+
+                <p id="funnyText">
+                    Decision edukkan pattunnille? Skill issue.
+                </p>
+
+            </div>
+
+            <button class="start-btn"
+                    onclick="event.stopPropagation(); goToPage(3)">
+
+                START
+
+                <b>→</b>
+
+            </button>
+
+            <div class="tiny-note">
+                ⚠️ No refunds. No complaints. No logic.
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 3 ================= -->
+
+    <section id="page3" class="page">
+        <div class="page-decor page3-decor">
+    <span class="decor d1">🍔</span>
+    <span class="decor d2">💰</span>
+    <span class="decor d3">🍿</span>
+    <span class="decor d4">😎</span>
+    <span class="decor d5">🌭</span>
+    <span class="decor d6">👀</span>
+
+    <div class="mini-sticker s1">ADD THE VICTIMS 😭</div>
+    <div class="mini-sticker s2">MONEY READY? 💸</div>
+</div>
+
+        <div class="content setup">
+
+            <div class="label">
+                STEP 01 • LET'S GET SERIOUS (NOT REALLY)
+            </div>
+
+            <h1>
+                LET'S MAKE<br>
+                SOMEONE <span>PAY</span> 💅
+            </h1>
+
+
+            <!-- AMOUNT -->
+
+            <div class="section-box">
+
+                <label>
+                    💸 HOW MUCH ARE WE RISKING?
+                </label>
+
+                <div class="amount-input">
+
+                    <strong>₹</strong>
+
+                    <input
+                        type="number"
+                        id="amount"
+                        placeholder="500"
+                        min="1"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- PARTICIPANTS -->
+
+            <div class="section-box">
+
+                <label>
+                    👥 WHO ARE THE VICTIMS?
+                </label>
+
+                <div class="name-input">
+
+                    <input
+                        type="text"
+                        id="nameInput"
+                        placeholder="Enter name..."
+                    >
+
+                    <button onclick="addParticipant()">
+                        +
+                    </button>
+
+                </div>
+
+                <div id="participants"
+                     class="participants">
+                </div>
+
+            </div>
+
+
+            <div class="setup-joke">
+                At least one person is leaving poorer. 💀
+            </div>
+
+
+            <button class="start-btn"
+                    onclick="goToMethodPage()">
+
+                CONTINUE
+
+                <b>→</b>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 4 ================= -->
+
+    <section id="page4" class="page">
+        <div class="page-decor page4-decor">
+    <span class="decor d1">🎡</span>
+    <span class="decor d2">🎲</span>
+    <span class="decor d3">🎟️</span>
+    <span class="decor d4">🤔</span>
+    <span class="decor d5">💸</span>
+    <span class="decor d6">👀</span>
+
+    <div class="mini-sticker s1">CHOOSE WISELY 😌</div>
+    <div class="mini-sticker s2">OR DON'T 💀</div>
+</div>
+
+        <div class="content">
+
+            <div class="label">
+                STEP 02 • CHOOSE YOUR DESTINY
+            </div>
+
+            <h1>
+                HOW SHOULD WE<br>
+                RUIN THE <span>PEACE?</span>
+            </h1>
+
+            <p class="subtext">
+                Choose wisely. Or don't. Nobody here is responsible. 💀
+            </p>
+
+
+            <div class="methods">
+
+
+                <!-- WHEEL -->
+
+                <div class="method wheel-card"
+                     onclick="selectMethod('wheel', this)">
+
+                    <div class="method-icon">
+                        🎡
+                    </div>
+
+                    <h2>
+                        WHEEL
+                    </h2>
+
+                    <p>
+                        Spin & pray.
+                    </p>
+
+                    <div class="card-number">
+                        01
+                    </div>
+
+                </div>
+
+
+                <!-- DICE -->
+
+                <div class="method dice-card"
+                     onclick="selectMethod('dice', this)">
+
+                    <div class="method-icon">
+                        🎲
+                    </div>
+
+                    <h2>
+                        DICE
+                    </h2>
+
+                    <p>
+                        Trust probability.
+                    </p>
+
+                    <div class="card-number">
+                        02
+                    </div>
+
+                </div>
+
+
+                <!-- CHIT -->
+
+                <div class="method chit-card"
+                     onclick="selectMethod('chit', this)">
+
+                    <div class="method-icon">
+                        📝
+                    </div>
+
+                    <h2>
+                        CHIT
+                    </h2>
+
+                    <p>
+                        Old school chaos.
+                    </p>
+
+                    <div class="card-number">
+                        03
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button id="fateButton"
+                    class="start-btn disabled"
+                    onclick="startGame()">
+
+                LET FATE DECIDE
+
+                <b>→</b>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 5 ================= -->
+
+    <section id="page5" class="page result-page">
+        <div class="page-decor page5-decor">
+    <span class="decor d1">💸</span>
+    <span class="decor d2">😭</span>
+    <span class="decor d3">🎉</span>
+    <span class="decor d4">🔥</span>
+    <span class="decor d5">🤑</span>
+    <span class="decor d6">💀</span>
+
+    <div class="mini-sticker s1">FATE DECIDED 👀</div>
+    <div class="mini-sticker s2">NO ESCAPE 💸</div>
+</div>
+
+        <div class="confetti c1">✦</div>
+        <div class="confetti c2">₹</div>
+        <div class="confetti c3">💸</div>
+        <div class="confetti c4">✧</div>
+        <div class="confetti c5">🎉</div>
+
+        <div class="content">
+
+            <div class="label">
+                THE MOMENT OF TRUTH
+            </div>
+
+            <h1>
+                FATE HAS<br>
+                <span>SPOKEN.</span>
+            </h1>
+
+
+            <!-- WHEEL -->
+
+            <div id="wheelResult" class="game-area">
+
+    <div class="real-wheel-wrapper">
+
+        <div class="wheel-pointer">▼</div>
+
+        <div id="wheel" class="real-wheel">
+        </div>
+
+    </div>
+
+    <p id="wheelStatus">
+        Spinning your fate... 👀
+    </p>
+
+</div>
+
+
+            <div id="diceResult" class="game-area">
+
+    <div class="dice-game">
+
+        <div id="diceNames" class="dice-names">
+        </div>
+
+        <div class="dice-middle">
+
+            <div id="dice" class="big-dice">
+                🎲
+            </div>
+
+            <div id="diceNumber" class="dice-number">
+                ?
+            </div>
+
+        </div>
+
+    </div>
+
+    <p>
+        Rolling your destiny... 🎲
+    </p>
+
+</div>
+
+           <div id="chitResult" class="game-area">
+
+    <div class="bowl-area">
+
+        <div class="bowl-glass">
+
+            <div class="bowl-shine"></div>
+
+            <div class="chit chit-one"></div>
+            <div class="chit chit-two"></div>
+            <div class="chit chit-three"></div>
+            <div class="chit chit-four"></div>
+            <div class="chit chit-five"></div>
+            <div class="chit chit-six"></div>
+
+        </div>
+
+        <div class="bowl-rim"></div>
+
+        <div id="pickedChit" class="picked-chit">
+            ?
+        </div>
+
+    </div>
+<p id="chitStatus">
+    Picking your victim... 💀
+</p>
+</div>
+
+
+            <!-- FINAL RESULT -->
+
+            <div id="finalResult"
+                 class="final-result">
+
+                <div class="victim-label">
+                    TODAY'S VICTIM 👀
+                </div>
+
+                <h2 id="winnerName">
+                    FATHIMA
+                </h2>
+
+
+                <div class="pay-card">
+
+                    <small>
+                        PAY
+                    </small>
+
+                    <strong id="winnerAmount">
+                        ₹500
+                    </strong>
+
+                </div>
+
+
+                <p id="resultMessage">
+                    Congratulations! You have been financially selected. 💀
+                </p>
+
+            </div>
+
+
+            <div class="result-buttons">
+
+                <button class="outline-btn"
+                        onclick="playAgain()">
+
+                    PLAY AGAIN ↻
+
+                </button>
+
+                <button class="outline-btn"
+                        onclick="goHome()">
+
+                    HOME ⌂
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
