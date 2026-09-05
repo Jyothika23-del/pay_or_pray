@@ -2,96 +2,133 @@
 
 
 
-# [Project Name] 🎯
+# Pay or Pray🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Jyothika Fathima
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead:Fathima.T.A - Jain University
+- Member 2: Jyothika.K-Jain University
 
-### Project Description
-[2-3 lines about what your project does]
+## Project Description
 
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+**Pay or Pray** is a fun decision-making web application designed to randomly choose who has to pay the bill. Users can add participants, enter an amount, and let fate decide using a Wheel, Dice, or Chit method.
 
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+It turns the stressful question **"Who Pays?"** into a fun and entertaining experience! 💸😂
 
-## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+## The Problem (that doesn't exist)
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+The biggest problem after eating with friends is always:
 
-### Implementation
-For Software:
-# Installation
-[commands]
+**"Who is going to pay the bill?"** 😭
+
+Everyone suddenly becomes silent, checks their phone, or pretends they forgot their wallet. Pay or Pray solves this extremely serious and totally unnecessary problem! 💀
+
+## The Solution (that nobody asked for)
+
+Add everyone's names, enter the bill amount, choose your favorite method, and let **fate** select the unlucky person! 🎲💸
+
+No arguments. No excuses. No escaping.
+
+**Pay... or Pray! 😌🙏**
+
+# Technical Details
+
+## Technologies/Components Used
+
+### For Software:
+
+- **Languages used:** HTML, CSS, JavaScript, Python
+- **Frameworks used:** Flask
+- **Libraries used:** Flask
+- **Tools used:** Visual Studio Code, GitHub, Web Browser
+
+### For Hardware:
+
+- Computer/Laptop
+- Internet Connection
+- Keyboard and Mouse
+
+# Implementation
+
+## For Software:
+
+### Installation
+
+```bash
+pip install flask
 
 # Run
-[commands]
+python app.py
 
-### Project Documentation
-For Software:
+# Screenshots
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+### 1. Home Page
+![Home Page](image/Screenshot1.png)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Welcome screen*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+### 2. Introduction Page
+![Introduction Page](image/Screenshot2.png)
+
+*Game introduction*
+
+### 3. Setup Page
+![Setup Page](image/Screenshot3.png)
+
+*Add participants*
+
+### 4. Method Selection
+![Method Selection](image/Screenshot4.png)
+
+*Choose your fate*
+
+### 5. Wheel Game
+![Wheel Game](image/Screenshot5.png)
+
+*Spin and select*
+
+### 6. Dice Game
+![Dice Game](image/Screenshot6.png)
+
+*Roll for payer*
+
+### 7. Chit Game
+![Chit Game](image/Screenshot7.png)
+
+*Pick random payer*
+
+### 8. Final Result
+![Final Result](image/Screenshot8.png)
+
+*Selected person pays*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![Workflow]
+User enters the amount and participant names  
+↓  
+User selects a method (Wheel / Dice / Chit)  
+↓  
+The selected game method randomly chooses a participant  
+↓  
+The result is displayed  
+↓  
+The selected person pays the bill
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+(https://github.com/Jyothika23-del/pay_or_pray/blob/main/video.mp4)
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+
+- Jyothika: Frontend design, UI development, CSS styling, and project documentation.
+- Fathima: Backend development, JavaScript functionality, and game logic.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
