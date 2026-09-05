@@ -124,9 +124,6 @@ The selected person pays the bill
 
 https://github.com/Jyothika23-del/pay_or_pray/blob/main/video2.mp4
 
-# Additional Demos
-[Add any extra demo materials/links]
-
 ## Team Contributions
 
 - Jyothika: Frontend design, UI development, CSS styling, and project documentation.
